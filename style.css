@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+img {
+  width: fit-content;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+}
+
+#description {
+  height: 100%;
+  width: 50vw;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#description #content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#description #content h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+#description #content h3 {
+  margin: 1rem 0 1rem 0;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 300;
+}
+#description #content button {
+  height: 3rem;
+  width: 10rem;
+  border-radius: 20px;
+  background-color: teal;
+  color: white;
+  margin: 1rem 0 1rem 0;
+  border: none;
+}
+
+#description #content button:hover {
+  background-color: #333;
+  cursor: pointer;
+  color: white;
+}
+#description #content ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  font-size: 3rem;
+  width: 60%;
+  margin: 1rem 0 1rem 0;
+}
+
+#description #content ul li a {
+  color: #333;
+  text-decoration: none;
+}
+#description #content ul li :hover {
+  cursor: pointer;
+  color: teal;
+  text-shadow: 2px;
+}
+
+#description .resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#description .resume img {
+  width: 70%;
+}
+
+#display button {
+  display: none;
+  height: 50vw;
+  width: 8rem;
+  border-radius: 20px;
+  background-color: teal;
+  color: white;
+  border: none;
+  position: relative;
+}
+#display button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+
+#description button:hover {
+  background-color: #333;
+  cursor: pointer;
+  color: white;
+}
+
+#display {
+  width: 50vw;
+  height: 100vw;
+  background-image: url("img/blake-richard-verdoorn-cssvEZacHvQ-unsplash.jpg");
+  background-size: cover;
+  position: fixed;
+  left: 50vw;
+}
+@media only screen and (max-width: 600px) {
+  #container {
+    flex-direction: column;
+  }
+  #display {
+    height: 30%;
+    width: 100vw;
+    left: 0;
+  }
+
+  #description {
+    height: 70%;
+    width: 100vw;
+    top: 60vw;
+  }
+
+  #display button {
+    display: none;
+    height: 10vh;
+    width: 100vw;
+    border-radius: 20px;
+    background-color: teal;
+    color: white;
+    border: none;
+    position: relative;
+    top: 80%;
+  }
+}
