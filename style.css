@@ -127,6 +127,8 @@ img {
     height: 30%;
     width: 100vw;
     left: 0;
+    background-size: cover;
+    background-image: url("img/pawel-czerwinski-yzbF63GQmhE-unsplash.jpg");
   }
 
   #description {
