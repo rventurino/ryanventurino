@@ -148,4 +148,8 @@ img {
     position: relative;
     top: 80%;
   }
+
+  #description .resume img {
+    width: 90%;
+  }
 }
