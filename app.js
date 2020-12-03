@@ -1,12 +1,10 @@
-let bg = "url(img/VenturinoResume - Copy-page0001.jpg);";
+let home = document.getElementById("home");
+let lessons = document.getElementById("lessons");
 
-document.getElementById("readMore").addEventListener("click", function () {
-  document.getElementById("description").innerHTML = `<div class="resume">
-  <img src="img/VenturinoResume - Copy-page0001.jpg" alt="resume" />
-</div>`;
-  document.getElementById("back").style.display = `inline`;
+home.addEventListener("click", () => {
+  location.href = "index.html";
 });
 
-document.getElementById("back").addEventListener("click", function () {
-  location.reload();
+lessons.addEventListener("click", () => {
+  location.href = "lessons/index.html";
 });
