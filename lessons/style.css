@@ -9,12 +9,11 @@ html {
   font-size: 62.5%;
 }
 body {
-  background-color: whitesmoke;
+  background-image: url("../img/double-bubble-outline.png");
 }
 
 /*NAVIGATION*/
 header {
-  background-color: whitesmoke;
   height: 10vh;
   display: flex;
   align-items: center;
@@ -25,6 +24,9 @@ header h1 {
   color: teal;
   margin-top: 2rem;
   font-style: bold;
+}
+button {
+  background-color: white;
 }
 button:hover {
   background-color: teal;

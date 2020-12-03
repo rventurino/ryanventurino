@@ -11,9 +11,8 @@ html {
   background-color: rgb(218, 214, 214);
 }
 body {
-  background-image: url("img/BGPort.jpg");
-  background-size: cover;
-  background-position: bottom;
+  background-image: url("img/double-bubble.png");
+
   background-repeat: repeat;
 }
 header {
