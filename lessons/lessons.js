@@ -1,13 +1,3 @@
-let home = document.getElementById("home");
-let lessons = document.getElementById("lessons");
-
-home.addEventListener("click", () => {
-  location.href = "index.html";
-});
-
-lessons.addEventListener("click", () => {
-  location.href = "lessons/index.html";
-});
 function copyContact() {
   /* Get the text field */
   var copyText = document.getElementById("contactMe");
