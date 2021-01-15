@@ -8,6 +8,7 @@ home.addEventListener("click", () => {
 lessons.addEventListener("click", () => {
   location.href = "lessons/index.html";
 });
+
 function copyContact() {
   /* Get the text field */
   var copyText = document.getElementById("contactMe");
